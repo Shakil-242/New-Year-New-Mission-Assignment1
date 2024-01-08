@@ -30,18 +30,20 @@
     }
 
 /* Main Style */
+.container{
+    width: 1320px;
+    margin: 0px auto;
+    border-radius: 16px;
+}
+.black{
+    background-color: #070211;
+    color:#FFFFFF;
+}
 .offer-section{
     width: 1320px;
     margin: 0px auto;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    /* /color: #070211;
-    text-align: center;
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal; */ */
 }
 .offer{
     color:#F00;
@@ -63,4 +65,114 @@
 
 
 }
+.welcome-container{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../images/midnight.png');
+    margin-top:120px;
+    padding: 67px 136px;
+    background-repeat: no-repeat;
+    display: flex;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.welcome-title{
+    color:#FFFFFF;
+    font-size:64px;
+    font-weight:900px;
+    width: 642px;
+    margin-bottom: 24px;
+    font-family: Merriweather;
+}
+.welcome-description{
+    color:rgba(255,255,255, 0.80) ;
+    width:697px;
+    font-family: 'Inter', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.join-now-btn{
+    text-transform:uppercase;
+    color:#FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    width:103px;  
+}
+
+.section-container{
+    border-radius:15px;
+    background: rgba(255,0,0,0.05);
+    margin:120px 0px;
+    padding: 80px 212px;
+    text-align: center;
+}
+.email-picture{
+    margin-bottom:40px;
+}
+.subscriber-news-letter{
+    color:#070211;
+    font-family: Merriweather;
+    font-size:48px;
+    font-weight:900;
+    margin-bottom:22px;
+}
+.subscribe-description{
+    color: rgba(7,2,17,0.60);
+    font-family: 'Inter', sans-serif;
+    font-size:20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    
+}
+
+
+input{
+    /* border:none;
+    outline: none; */
+    
+}
+
+input[type="email"]{
+    width:438px;
+    height:72px;
+    border-radius: 30px 0 0 30px;
+    position:relative;
+}
+.submit{
+    width:212px;
+    height:74px;
+    font-size:20px;
+    border-radius:0px 30px 30px 0px;
+    background:#FF0000;
+    /* position:absolute; */
+
+}
+
+
 /* Footer Style */
+.common-flex{
+    display:flex;
+    justify-content: space-between;
+    padding:120px 140px;
+    align-items: center;
+}
+.common-style{
+    color:#FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+    
+}
+.social-media-section>ul{
+    display:flex;
+    gap:25px;
+    justify-content: center;
+}
+.social-media-section li{
+    list-style: none;
+}
