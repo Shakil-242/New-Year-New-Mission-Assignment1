@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* Common Style */
+
+/* Header Style */
+.header-container{
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner-image.png');
+    margin: 50px auto;
+    .heading-section{
+        color: #FFFFFF;
+        text-align:center;
+        padding:177px 344px;
+        font-family:Merriweather;
+        
+    .heading{
+        font-size:32px;
+        font-weight: 400;
+    }
+    .heading-title{
+        width:632px;
+        font-size:72px;
+        font-weight: 900;
+        text-align:center;
+    }
+
+/* Main Style */
+/* Footer Style */
