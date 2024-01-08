@@ -7,16 +7,17 @@
 /* Header Style */
 .header-container{
     width: 1320px;
-    height: 600px;
     border-radius: 16px;
     background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner-image.png');
-    margin: 50px auto;
+    margin: 50px auto 120px;
+}
     .heading-section{
         color: #FFFFFF;
         text-align:center;
         padding:177px 344px;
         font-family:Merriweather;
-        
+    }
+
     .heading{
         font-size:32px;
         font-weight: 400;
@@ -29,4 +30,37 @@
     }
 
 /* Main Style */
+.offer-section{
+    width: 1320px;
+    margin: 0px auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    /* /color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; */ */
+}
+.offer{
+    color:#F00;
+    font-size:88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.offer-description{
+    color:#F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.offer-Categories{
+    color:#070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom:48px;
+
+
+}
 /* Footer Style */
