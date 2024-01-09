@@ -140,10 +140,6 @@
     line-height: 32px;
     width: 393px;
 }
-.offer-description{
-    width:275px;
-    
-}
 .holidays-container{
     text-align: center;
 }
@@ -191,7 +187,7 @@
 }
 .disscount{
     position:absolute;
-    left: 815px;
+    left: 750px;
     margin:69px 0 0 0px;
 }
 .image-middle{
