@@ -6,10 +6,11 @@
 
 /* Header Style */
 .header-container{
-    width: 1320px;
+    width: 1200px;
     border-radius: 16px;
     background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner-image.png');
     margin: 50px auto 140px;
+    background-size:cover;
     padding:
 }
     .heading-section{
@@ -33,7 +34,7 @@
 /* Main Style */
 .container{
 
-    width: 1320px;
+    width: 1200px;
     margin: 50px auto 140px;
     border-radius: 16px;
     
@@ -43,7 +44,7 @@
     color:#FFFFFF;
 }
 .offer-section{
-    width: 1320px;
+    width: 1200px;
     margin: 0px auto;
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -169,10 +170,6 @@
     padding:0 312px;
     margin-bottom: 50px;
 }
-
-
-
-
 .image-flex{
     display:flex;
     justify-content: space-between;
@@ -183,11 +180,12 @@
 }
 .absolute{
     position:absolute;
+    left:20px;
     margin:-668px 0 0 0;
 }
 .disscount{
     position:absolute;
-    left: 750px;
+    left: 708px;
     margin:69px 0 0 0px;
 }
 .image-middle{
@@ -253,16 +251,19 @@
 .wraper{
     margin:24px 0px;
     display: flex;
-    gap:25px;
+    gap:4px
     
 }
 .wraper-2{
     display: flex;
-    gap:25px;  
+    gap:4px
 }
 
+.gift-images{
+    width:398px;
+}
 .gift-images:hover{
-    border:5px solid rgba(255, 89, 0, 0.923);
+    border:1px solid rgba(255, 89, 0, 0.923);
     border-radius: 15px;
     transition: 0.2s; */
     
@@ -360,6 +361,9 @@ input,button{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }
+.red-pictures{
+    width: 1200px;
+}
 .first-horizontal{
     width: 80%;
     margin: 0 auto;
@@ -367,4 +371,7 @@ input,button{
 }
 .second-horizontal{
     margin-top:50px;
+}
+.welcome-container{
+    border-radius: 16px;
 }
