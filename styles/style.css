@@ -21,14 +21,14 @@
     }
 
     .heading{
+        width: 632px;
         font-size:32px;
         font-weight: 400;
     }
     .heading-title{
-        width:632px;
         font-size:72px;
-        font-weight: 900;
-        text-align:center;
+        font-weight:900;
+        width: 632px;
     }
 
 /* Main Style */
@@ -251,12 +251,13 @@
 .wraper{
     margin:24px 0px;
     display: flex;
-    gap:4px
+    gap:8px;
     
 }
 .wraper-2{
     display: flex;
-    gap:4px
+    gap:8px; 
+    
 }
 
 .gift-images{
