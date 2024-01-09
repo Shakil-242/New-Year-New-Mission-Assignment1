@@ -144,6 +144,56 @@
     width:275px;
     
 }
+.holidays-container{
+    text-align: center;
+}
+.functional{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500; 
+}
+.holidays-title{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.sale-50{
+    color: #070211;
+}
+.holidays-description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding:0 312px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.image-flex{
+    display:flex;
+    justify-content: space-between;
+}
+.blank{
+    width:200px;
+    background-color: #FFF;
+}
+.absolute{
+    position:absolute;
+    margin:-668px 0 0 0;
+}
+.disscount{
+    position:absolute;
+    left: 815px;
+    margin:69px 0 0 0px;
+}
 .image-middle{
     padding: 30px;
     border:5px solid #F00;
@@ -215,15 +265,9 @@
     gap:25px;  
 }
 
-.gift-images{
-    dispay:block;
-    box-sizing: border-box;
-}
-
 .gift-images:hover{
     border:5px solid rgba(255, 89, 0, 0.923);
     border-radius: 15px;
-    /* opacity: 1;
     transition: 0.2s; */
     
 }
@@ -319,4 +363,12 @@ input,button{
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+}
+.first-horizontal{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom:50px;
+}
+.second-horizontal{
+    margin-top:50px;
 }
